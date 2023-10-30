@@ -1,0 +1,126 @@
+.login {
+    margin: 0 auto;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 30px 70px 143px 70px;
+}
+
+.login h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.input-text {
+    margin-bottom: 20px;
+}
+
+.input-text input {
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: transparent;
+    text-indent: 18px;
+}
+
+.remember-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.color_text {
+    color: #b3b3b3;
+}
+
+.color_link {
+    color: #737373;
+}
+
+.signup-link {
+    color: white;
+    text-decoration: none;
+}
+
+.warning-input {
+    display: none;
+    color: #e87c03;
+    margin-top: 0;
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.new-members {
+    margin-bottom: 10px;
+    color: #8c8c8c;
+}
+
+.help a {
+    text-decoration: none;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.protection {
+    font-size: 0.8rem;
+    color: #8c8c8c;
+}
+
+.protection a {
+    text-decoration: none;
+}
+
+.protection a:hover {
+    text-decoration: underline;
+}
+
+.header-bg-img {
+    background-image: url('./img/arkaplan.jpg');
+    height: 1100px;
+}
+
+.header-bg-color {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.footer-bg-color {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 29%;
+}
+
+footer.container .row div ul li {
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 740px){
+    .header-bg-img{
+        background: black;
+    }
+
+    .img-logo {
+        margin-left: 22px;
+    }
+
+    .login{
+        padding: 0 10px 0 10px;
+        width: 100%;
+    }
+
+    .login-div{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
